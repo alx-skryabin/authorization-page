@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Auth</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="auth-wrap">
+		<div class="auth-container">
+			<div class="auth-container_pills">
+
+				<div class="auth-container_logo">
+					<img src="img/reg-logo.png">
+					<span>Fast-bot</span>
+				</div>
+
+				<div class="auth-container_nav">
+					<ul class="nav" id="pills-tab">
+						<li class="nav-item">
+							<a class="active"data-toggle="pill" href="#auth-tab">Авторизация</a>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="pill" href="#forgot-tab">Восстановление</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="auth-tab">
+						<div class="auth-container_common">
+							<form class="auth-container_form">
+								<label>
+									<p>Логин</p>
+									<input type="text" placeholder="Ваш логин">
+								</label>
+								<label>
+									<p>Пароль</p>
+									<input type="text" placeholder="Пароль">
+								</label>
+								<button>Войти</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="forgot-tab">
+						<div class="auth-container_common">
+							<form class="auth-container_form">
+								<label>
+									<p>Почта</p>
+									<input type="text" placeholder="Ваша почта">
+								</label>
+								<button>Отправить</button>
+							</form>
+						</div>
+					</div>
+					<div class="auth-container_reg">или <a href="">регистрация</a></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<script src="script.js"></script>
+</body>
+</html>
