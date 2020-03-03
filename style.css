@@ -154,3 +154,20 @@
 .auth-container_tips div {
 	padding: 10px;
 }
+
+
+.auth-container_socio {
+	margin-top: 15px;
+	text-align: center;
+}
+.auth-socio-icon i {
+	font-size: 1.3em;
+	margin: 10px;
+	cursor: pointer;
+	color: #555;
+	transition: .2s;
+}
+.auth-socio-icon i:hover {
+	color: #1387C5;
+	transition: .2s;
+}
